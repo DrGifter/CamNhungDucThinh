@@ -112,7 +112,7 @@ function shootImagesFromBottomToRandomTarget(callback) {
 giftBox.addEventListener('click', () => {
   giftContainer.classList.add('open');
   const audio = document.getElementById('bg-music');
-  audio.currentTime = 45;  
+  audio.currentTime = 70;  
   audio.play(); 
 
   setTimeout(() => {
